@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+           $('.import-nav').load("Navbar.html"); 
+        });
+     </script>
+</head>
+
+<body>
+   <div class="import-nav"></div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="slider-heading d-flex">
+						<div class="icon"><i class="fa-solid fa-pen" style="color: #8338ec;"></i></div>
+                        <div class="l ps-1"><img src="Img/logo1.png" alt=""></div>
+                    </div>
+                    <div class="content py-2">
+                        <h1><span class="slider-text">Create</span> And <span class="slider-text">Manage </span>Your All Notes In One Place</h1>
+                    </div>
+                    <div class='pt-2 '>
+                        <a href="AddNote"><input type="submit"  class=" slider-btn" value="Add Note"></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                     <div class="slider-banner">
+                         <div class="slider-1"></div>
+                         <div class="slider-3"></div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

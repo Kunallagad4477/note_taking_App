@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <style>
+        .container{
+           
+            width: 800px;
+        }
+        .sub-container{
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg set-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="Img/logo1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      </nav>
+    <div class="container mt-5 set-shadow">
+         <div class="sub-container">
+            <form name="registration-form" action="register" method="post">
+                <div class="header text-colr">
+                    <h1>Register</h1>
+                </div>
+                <div class="form-group pt-4">
+                  <label for="name">Enter Name</label>
+                  <input type="text" name="name" class="form-control" id="" placeholder="Enter Name" required>
+                </div>
+                <div class="form-group pt-4">
+                    <label for="email">Enter Email</label>
+                    <input type="text" name="email" class="form-control" id="" placeholder="Enter Name" required>
+                </div>
+                <div class="form-group pt-4">
+                  <label for="password">Enter Password</label>
+                  <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required="required">
+                  <small id="password-info" class="form-text text-muted">password contains 8-16 characters atleast one special symbol.</small>
+                </div>
+                <div class="form-group pt-4">
+                    <label for="confirm-pass">Confirm Password</label>
+                    <input type="text" name="c-password" class="form-control" id="" placeholder="Confirm Password" required>
+                </div>
+                <div class="pt-2">
+                    <button type="submit" class="re-btn mt-4">Submit</button>
+                </div>
+              </form>
+         </div>
+    </div>
+</body>
+</body>
+</html>
